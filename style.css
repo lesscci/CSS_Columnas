@@ -1,0 +1,22 @@
+p{
+ column-count: 3;   
+ column-gap: 40px;
+ text-align: justify;
+ column-rule-style: dashed;
+ column-rule-color: red;
+ column-rule-width: 2px;
+
+}
+
+body{
+ background-color:khaki;
+}
+
+span:hover{
+ color:red;
+}
+
+p::selection{
+  background-color: red;  
+  color: bisque;
+}
